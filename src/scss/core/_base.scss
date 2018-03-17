@@ -1,0 +1,54 @@
+// Import any libraries or plugins from other gems
+// that need to be included first (for configuration)
+@import 'bourbon';
+
+// Neat override need to be set before @importing Neat
+$visual-grid: false; // used for viewing the Neat grid
+$visual-grid-color: #91c0ff;
+$visual-grid-index: back;
+$visual-grid-opacity: 0.4;
+$border-box-sizing: true; // defaults to true, so you can remove if you prefer
+$grid-columns: 12;
+// $max-width: em(1200px, 16px);
+$max-width: 75em;
+
+@import 'neat';
+
+/**
+ * Set up z-index layers
+ * To use this mapping:
+ * z-index: z('my-layer');
+ * You can also add to a layer:
+ * z-index: z('my-layer') + 20;
+ */
+$z-layers: (
+  'modal': 1000,
+  'mask': 500,
+  'default': 10,
+  'below': -1,
+  'just-above': 20
+);
+
+// set up responsive breakpoints
+$breakpoint-tablet: new-breakpoint(max-width 900px $grid-columns);
+$breakpoint-mobile: new-breakpoint(max-width 600px $grid-columns);
+
+// =============================================================================
+// Variables and Imports
+// =============================================================================
+
+
+$em-base: 18px;
+
+$image-path: '../img'; // Necessary for image-path mixin to work
+
+// Set this to true to force CSS output to exactly match normalize.css.
+$legacy_support_for_ie: false;
+
+// If you don't want to use the below and instead define heading sizes manually,
+// set $normalize_headings to false
+$normalize_headings: true;
+
+@import "mixins";
+@import "variables";
+@import 'fonts';
