@@ -1,0 +1,77 @@
+//TPS Colors
+$tps-blue:#4B84FF;
+$tps-lightblue:#5C9BFF;
+$tps-yellow:#FFD06E;
+$tps-purple:#412A76;
+$tps-lightpurple:#B7A0EE;
+$tps-orange:#FB8C00;
+$tps-white:#FFFFFF;
+$tps-purple-dark:#27135a;
+$tps-blue: #6081FF;
+$tps-trans-white: rgba(255,255,255, 0.9);
+$tps-trans: rgba(255,255,255, 0.0);
+$tps-trans-black: rgba(48,48,48,0.5);
+$tps-lightgrey: #DFDFDF;
+$tpsAccordion-hover-active-state: $tps-lightgrey;
+$tpsAccordion-hover:#f7f7f7;
+$tps-contact-form-border-bottom: rgba(151,151,151,0.5);
+$tps-off-white:#FCFCFD;
+$tps-trans-white_one: rgba(162,162,162, 0.15);
+$tps-cta-btn-size:1.125rem; //(14 pt, 18px)
+$tps-button-time: 1s;
+$tps-cta-hover: #E78100;
+$tps-button-width: 100vw;
+$tps-button-time-close: 250ms;
+$tps-cta-hover-close: rgb(255, 190, 56);
+$tps-button-width-close: 90px;
+
+$tps-accordionAnimation-time: 750ms;
+$tps-accordionAnimation-hover: $tpsAccordion-hover;
+$tps-accordionAnimation-hover-active-state: $tpsAccordion-hover-active-state;
+$tps-accordionAnimation-width: 100vw;
+
+
+
+
+//TPS Gradient
+
+$tps-gradient-start: #4b84ff;
+$tps-gradient-middle: #322076;
+$tps-gradient-end: #4f0c31;
+
+
+//TPS Fonts
+$tps-mono: 'Overpass Mono', monospace;
+$tps-sans: 'Source Sans Pro', sans-serif;
+
+
+
+
+
+//OLD
+$purple: #412A76;
+$aqua: #95c8d2;
+$gold: #ffB30d;
+$dark-gold: #e29b0f;
+$green: #86b324;
+$dark-green: #6e9716;
+$dark-blue: #007a99;
+$darker-blue: #005a78;
+$blue: #569bbe;
+$charcoal: #403c3c;
+$dark-gray: #646464;
+$darker-gray: #333231;
+$gray: #b7b7b7;
+$light-gray: #d9d9d9;
+$lightest-gray: #ededed;
+$base-font-color: black;
+
+
+
+//
+// Section Colors
+//
+$section-color-news: $gold;
+$section-color-blog: $green;
+$section-color-events: $dark-blue;
+$section-color-treatments: $gray;

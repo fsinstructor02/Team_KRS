@@ -1,0 +1,34 @@
+// put all utility classes in here
+
+.show-at-xs2 {
+  display: none;
+
+  @include bp(xs2) {
+    display: block;
+  }
+}
+
+.show-at-md {
+  display: none;
+
+  @include bp(md) {
+    display: block;
+  }
+}
+
+.hide-at-xs2 {
+  display: block;
+
+  @include bp(xs2) {
+    display: none;
+  }
+}
+
+.hide-at-md {
+  display: block;
+
+  @include bp(md) {
+    display: none;
+  }
+}
+
