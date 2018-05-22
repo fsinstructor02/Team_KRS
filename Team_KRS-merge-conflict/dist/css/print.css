@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/**
+ * Set up z-index layers
+ * To use this mapping:
+ * z-index: z('my-layer');
+ * You can also add to a layer:
+ * z-index: z('my-layer') + 20;
+ */
+
+/*# sourceMappingURL=print.css.map */
